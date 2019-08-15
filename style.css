@@ -1,0 +1,26 @@
+﻿*{margin:0px; padding: 0px;}
+
+h1, h2, p {padding-top:10px}
+a {color: #fff;}
+body{background-color: #fff;}
+
+.destaque {background-color: #fa6604; color: #fff; padding: 30px; font-family: sans-serif; font-weight: bold; font-size: 1.8em;}
+.conteudo p {margin-top: 25px; line-height: 1.625; border: 2px solid #FF6600; padding: 10px;}
+
+@media only screen and (max-width: 400px) {
+    .destaque img {margin-top: 30px;max-width: 100%;}
+    .conteudo h1 {font-size: 2rem;color: #fa6604;}
+    .conteudo {padding: 30px;max-width: 100%}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1200px){
+    .destaque img {margin-top: 30px; max-width: 100%;}
+    .conteudo h1 {font-size: 2.5rem;color: #fa6604;}
+    .conteudo {padding: 30px; max-width:100%}
+}
+
+@media only screen and (min-width: 1200px) {
+    .destaque img {margin-top: 20px; max-width: 100%;}
+    .conteudo h1 {font-size: 3rem;color: #fa6604;}
+    .conteudo {padding: 30px; max-width: 70%}
+}
